@@ -6,4 +6,7 @@ class TextFormatConfig(AppConfig):
 
     def ready(self):
         from .signal_handlers import setup
+        from .registry import registry
+
         setup()
+        registry.autoload()

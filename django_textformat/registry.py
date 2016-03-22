@@ -51,4 +51,3 @@ class FilterRegistry(object):
 
 
 registry = FilterRegistry()
-registry.autoload()
