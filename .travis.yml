@@ -4,7 +4,7 @@ sudo: false
 cache:
 - pip
 env:
-- TOXENV=flake8
+# - TOXENV=flake8
 - TOXENV=py27-18
 - TOXENV=py35-18
 - TOXENV=pypy-18
