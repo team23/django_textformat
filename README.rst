@@ -147,3 +147,14 @@ Here is an example:
 
 Now you have a text filter called ``'markdown'`` available for use in your text
 formats.
+
+Development
+-----------
+
+Install the dependencies (including the test dependencies) with::
+
+    pip install -r requirements.txt
+
+Then you can run all tests with::
+
+    tox
