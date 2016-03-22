@@ -31,7 +31,7 @@ setup(
     url='https://github.com/team23/django_textformat',
     license='BSD licence, see LICENSE file',
     description=(
-        "Provides a TextFormat field for Django models and allows to "
+        "Provides a TextFormatField for Django models and allows to "
         "build text formats out of simple filters."),
     long_description=u'\n\n'.join((
         read('README.rst'),
