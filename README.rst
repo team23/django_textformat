@@ -1,6 +1,14 @@
 django-textformat
 =================
 
+|pypi-badge| |build-status|
+
+.. |build-status| image:: https://travis-ci.org/team23/django_textformat.svg
+    :target: https://travis-ci.org/team23/django_textformat
+
+.. |pypi-badge| image:: https://img.shields.io/pypi/v/django-textformat.svg
+    :target: https://pypi.python.org/pypi/django-textformat
+
 **django-textformat** makes it easy to configure and compose text formats.
 A text format is simply a set of text filters that are applied in a defined
 order. A text filter is a function that takes a markup string and returns a the
